@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3c6e5;
+}
+
+.booking {
+  width: 700px;
+  margin: 50px auto;
+  padding: 40px;
+  text-align: center;
+  background-color: #d889c4;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+select {
+  padding: 8px;
+  width: 200px;
+  font-size: 16px;
+}
+
+.movies {
+  margin: 30px;
+}
+
+.movies button {
+  padding: 15px 25px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.book {
+  padding: 12px 30px;
+  background-color: #d52ca8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input {
+  width: 300px;
+  padding: 12px;
+  margin: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
